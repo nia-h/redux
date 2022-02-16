@@ -261,7 +261,7 @@ We can see here that there are three reducer functions, and that corresponds to 
 `createSlice` automatically generates action creators with the same names as the reducer functions we wrote. We can check that by calling one of them and seeing what it returns:
 
 ```js
-console.log(counterSlice.actions.increment())
+console.log(slice.actions.increment())
 // {type: "counter/increment"}
 ```
 
